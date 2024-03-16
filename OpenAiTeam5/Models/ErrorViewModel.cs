@@ -16,4 +16,9 @@ namespace OpenAiTeam5.Models
     {
         public float[] Outputs { get; set; }
     }
+
+    public class SearchRequest
+    {
+        public string Search { get; set; }
+    }
 }

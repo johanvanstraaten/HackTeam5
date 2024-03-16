@@ -7,6 +7,7 @@ using Azure.AI.OpenAI;
 
 namespace OpenAiTeam5.Controllers
 {
+   
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
